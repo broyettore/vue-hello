@@ -10,11 +10,6 @@ body {
     background-color: #022d30;
     color: #f6a56e;
 }
-
-#app {
-    height: 100vh;
-}
-
 /********* COMMON **********/
 
 h1 , h2, h3, h4, h5, h6, ul {
@@ -48,7 +43,55 @@ header a:hover {
 
 /******** MAIN **********/
 
+.ms-ctn {
+    height: calc(100vh - 122px);
+}
+
+.ms-primary {
+    background-color: #f6a56e;
+    color: whitesmoke;
+}
+
+.ms-secondary {
+    background-color: transparent;
+    color: #f6a56e;
+    border: 1px solid #f6a56e;
+}
+
+main button:hover {
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid #f6a56e;
+    transform: translateY(-6px);
+    transition: ease .30s;
+}
+
+.ms-primary:hover,
+.ms-secondary:hover {
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid #f6a56e;
+}
+
+.ms-img-ctn img {
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.ms-img-ctn img:hover {
+    transform: scale3d(1, 1, 1);
+    transition: ease .40s;
+}
 
 
 
-/******** FOOTER **********/
+
+/******** media queries**********/
+
+@media screen and (max-width: 768px) {
+
+    .ms-div-space {
+        margin-bottom: 60px;
+    }
+    
+}
