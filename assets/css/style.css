@@ -82,20 +82,23 @@ main button:hover {
     border-radius: 20px;
     cursor: pointer;
 }
+
 .ms-img-ctn img:hover {
     transform: scale(1.1);
     transition: ease-in-out .40s;
 }
 
 
-
-
 /******** media queries**********/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 
     .ms-div-space {
         margin-bottom: 60px;
+    }
+
+    .ms-img-ctn img {
+        width: 80%;
     }
     
 }
