@@ -26,6 +26,10 @@ a {
     color: #f6a56e;
 }
 
+[v-cloak] {
+    display: none;
+  }
+
 
 /******** HEADER **********/
 header a {
